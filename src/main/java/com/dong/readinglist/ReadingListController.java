@@ -1,6 +1,7 @@
 package com.dong.readinglist;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -11,7 +12,14 @@ import java.util.List;
 
 @Controller
 @RequestMapping("/readingList")
+@ConfigurationProperties(prefix = "amazon")
 public class ReadingListController {
+    private String associateId;
+
+    public void setAssociateId(String associateId) {
+        this.associateId = associateId;
+    }
+
     private ReadingListRepositiory readingListRepositiory;
 
     @Autowired
@@ -24,6 +32,8 @@ public class ReadingListController {
         List<Book> readingList = readingListRepositiory.findByReader(reader);
         if (readingList != null) {
             model.addAttribute("books", readingList);
+            model.addAttribute("reader", reader);
+            model.addAttribute("amazonID", associateId);
         }
         return "readingList";
     }
