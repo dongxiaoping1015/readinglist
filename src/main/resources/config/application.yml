@@ -7,7 +7,7 @@ spring:
 #    password: yesyes
 #    driver-class-name: com.mysql.jdbc.Driver
 server:
-  port: 8080 #8443
+  port: 8081 #8443
 #  ssl:
 #    key-store: classpath:mykeys.jks
 #    key-password: mmdxjj
@@ -17,3 +17,6 @@ logging:
   level:
     root: INFO
     org.spring.framework.security: DEBUG
+
+amazon:
+  associateId: dong
