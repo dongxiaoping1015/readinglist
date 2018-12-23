@@ -29,3 +29,78 @@
 2018-12-23 12:04:16.819  INFO 9628 --- [Thread-14] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
 2018-12-23 12:04:16.828  INFO 9628 --- [Thread-14] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
 2018-12-23 12:04:16.830  INFO 9628 --- [Thread-14] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2018-12-23 12:24:55.679  INFO 9884 --- [main] c.d.r.ReadinglistApplication             : Starting ReadinglistApplication on DongRMBP.local with PID 9884 (/Users/dong/Projects/Java/shopping-management-system-master/3/readinglist/target/classes started by dong in /Users/dong/Projects/Java/shopping-management-system-master/3/readinglist)
+2018-12-23 12:24:55.684  INFO 9884 --- [main] c.d.r.ReadinglistApplication             : The following profiles are active: development
+2018-12-23 12:24:56.315  INFO 9884 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-23 12:24:56.373  INFO 9884 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 52ms. Found 2 repository interfaces.
+2018-12-23 12:24:56.718  INFO 9884 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7c7c15e8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-23 12:24:57.197  INFO 9884 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8081 (http)
+2018-12-23 12:24:57.226  INFO 9884 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2018-12-23 12:24:57.226  INFO 9884 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-23 12:24:57.245  INFO 9884 --- [main] o.a.c.c.AprLifecycleListener             : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/dong/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2018-12-23 12:24:57.378  INFO 9884 --- [main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2018-12-23 12:24:57.378  INFO 9884 --- [main] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 1652 ms
+2018-12-23 12:24:57.618  INFO 9884 --- [main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2018-12-23 12:24:57.783  INFO 9884 --- [main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2018-12-23 12:24:57.838  INFO 9884 --- [main] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-12-23 12:24:57.948  INFO 9884 --- [main] o.h.Version                              : HHH000412: Hibernate Core {5.3.7.Final}
+2018-12-23 12:24:57.950  INFO 9884 --- [main] o.h.c.Environment                        : HHH000206: hibernate.properties not found
+2018-12-23 12:24:58.164  INFO 9884 --- [main] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2018-12-23 12:24:58.325  INFO 9884 --- [main] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2018-12-23 12:24:59.090  INFO 9884 --- [main] o.h.t.s.i.SchemaCreatorImpl              : HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@32256e68'
+2018-12-23 12:24:59.095  INFO 9884 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-12-23 12:24:59.742  INFO 9884 --- [main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-23 12:24:59.786  WARN 9884 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-12-23 12:25:00.165  INFO 9884 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8081 (http) with context path ''
+2018-12-23 12:25:00.170  INFO 9884 --- [main] c.d.r.ReadinglistApplication             : Started ReadinglistApplication in 5.261 seconds (JVM running for 6.475)
+2018-12-23 12:25:24.311  INFO 9884 --- [http-nio-8081-exec-3] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-23 12:25:24.311  INFO 9884 --- [http-nio-8081-exec-3] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2018-12-23 12:25:24.322  INFO 9884 --- [http-nio-8081-exec-3] o.s.w.s.DispatcherServlet                : Completed initialization in 11 ms
+2018-12-23 12:25:24.411  INFO 9884 --- [http-nio-8081-exec-3] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2018-12-23 12:25:29.055  INFO 9884 --- [Thread-14] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-23 12:25:29.056  INFO 9884 --- [Thread-14] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-12-23 12:25:29.056  INFO 9884 --- [Thread-14] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2018-12-23 12:25:29.065  INFO 9884 --- [Thread-14] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2018-12-23 12:25:29.066  INFO 9884 --- [Thread-14] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2018-12-23 12:27:29.026  INFO 9940 --- [main] c.d.r.ReadinglistApplication             : Starting ReadinglistApplication on DongRMBP.local with PID 9940 (/Users/dong/Projects/Java/shopping-management-system-master/3/readinglist/target/classes started by dong in /Users/dong/Projects/Java/shopping-management-system-master/3/readinglist)
+2018-12-23 12:27:29.034  INFO 9940 --- [main] c.d.r.ReadinglistApplication             : The following profiles are active: development
+2018-12-23 12:27:29.867  INFO 9940 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-23 12:27:29.925  INFO 9940 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 53ms. Found 2 repository interfaces.
+2018-12-23 12:27:30.270  INFO 9940 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6c188849] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-23 12:27:30.725  INFO 9940 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8081 (http)
+2018-12-23 12:27:30.759  INFO 9940 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2018-12-23 12:27:30.759  INFO 9940 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-23 12:27:30.773  INFO 9940 --- [main] o.a.c.c.AprLifecycleListener             : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/dong/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2018-12-23 12:27:30.914  INFO 9940 --- [main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2018-12-23 12:27:30.914  INFO 9940 --- [main] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 1813 ms
+2018-12-23 12:27:31.158  INFO 9940 --- [main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2018-12-23 12:27:31.321  INFO 9940 --- [main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2018-12-23 12:27:31.387  INFO 9940 --- [main] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-12-23 12:27:31.494  INFO 9940 --- [main] o.h.Version                              : HHH000412: Hibernate Core {5.3.7.Final}
+2018-12-23 12:27:31.495  INFO 9940 --- [main] o.h.c.Environment                        : HHH000206: hibernate.properties not found
+2018-12-23 12:27:31.754  INFO 9940 --- [main] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2018-12-23 12:27:31.936  INFO 9940 --- [main] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2018-12-23 12:27:32.715  INFO 9940 --- [main] o.h.t.s.i.SchemaCreatorImpl              : HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@b2c4a8b'
+2018-12-23 12:27:32.719  INFO 9940 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-12-23 12:27:33.288  INFO 9940 --- [main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-23 12:27:33.330  WARN 9940 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-12-23 12:27:33.647  INFO 9940 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 4add40ba-9902-4cbf-bfb6-d414132c32c4
+
+2018-12-23 12:27:33.784  INFO 9940 --- [main] o.s.s.w.DefaultSecurityFilterChain       : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2321e482, org.springframework.security.web.context.SecurityContextPersistenceFilter@45e7bb79, org.springframework.security.web.header.HeaderWriterFilter@48a46b0f, org.springframework.security.web.csrf.CsrfFilter@37a67cf, org.springframework.security.web.authentication.logout.LogoutFilter@2f86f9cf, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@bd4ee01, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@506aa618, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@467ef400, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@27afbf14, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@21c75084, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7e050be1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@13fe5bb7, org.springframework.security.web.session.SessionManagementFilter@9f9146d, org.springframework.security.web.access.ExceptionTranslationFilter@4b5ad306, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@58882a93]
+2018-12-23 12:27:33.889  INFO 9940 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8081 (http) with context path ''
+2018-12-23 12:27:33.892  INFO 9940 --- [main] c.d.r.ReadinglistApplication             : Started ReadinglistApplication in 5.565 seconds (JVM running for 6.877)
+2018-12-23 12:27:45.784  INFO 9940 --- [http-nio-8081-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-23 12:27:45.785  INFO 9940 --- [http-nio-8081-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2018-12-23 12:27:45.794  INFO 9940 --- [http-nio-8081-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 9 ms
+2018-12-23 12:28:18.444  INFO 9940 --- [http-nio-8081-exec-10] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2018-12-23 12:28:39.403  INFO 9940 --- [Thread-15] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-23 12:28:39.404  INFO 9940 --- [Thread-15] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-12-23 12:28:39.405  INFO 9940 --- [Thread-15] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2018-12-23 12:28:39.415  INFO 9940 --- [Thread-15] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2018-12-23 12:28:39.417  INFO 9940 --- [Thread-15] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
