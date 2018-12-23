@@ -35,6 +35,7 @@ public class MockMvcWebTests {
     @Test
     public void homePage() throws Exception {
         mockMvc.perform(get("/readingList/dong"))
+                .andExpect(status().isOk())
                 .andExpect(view().name("readingList"))
                 .andExpect(model().attributeExists("books"))
                 .andExpect(model().attribute("books", is(empty())));

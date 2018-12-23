@@ -159,3 +159,31 @@ Using generated security password: 4add40ba-9902-4cbf-bfb6-d414132c32c4
 2018-12-23 14:46:54.875  INFO 10629 --- [Thread-2] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
 2018-12-23 14:46:54.885  INFO 10629 --- [Thread-2] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
 2018-12-23 14:46:54.888  INFO 10629 --- [Thread-2] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2018-12-23 14:54:32.308  INFO 10703 --- [main] c.d.r.MockMvcWebTests                    : Starting MockMvcWebTests on DongRMBP.local with PID 10703 (started by dong in /Users/dong/Projects/Java/shopping-management-system-master/3/readinglist)
+2018-12-23 14:54:32.314  INFO 10703 --- [main] c.d.r.MockMvcWebTests                    : The following profiles are active: development
+2018-12-23 14:54:33.363  INFO 10703 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-23 14:54:33.454  INFO 10703 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 81ms. Found 2 repository interfaces.
+2018-12-23 14:54:34.117  INFO 10703 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4a067732] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-23 14:54:34.456  INFO 10703 --- [main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2018-12-23 14:54:34.892  INFO 10703 --- [main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2018-12-23 14:54:35.032  INFO 10703 --- [main] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-12-23 14:54:35.171  INFO 10703 --- [main] o.h.Version                              : HHH000412: Hibernate Core {5.3.7.Final}
+2018-12-23 14:54:35.175  INFO 10703 --- [main] o.h.c.Environment                        : HHH000206: hibernate.properties not found
+2018-12-23 14:54:35.453  INFO 10703 --- [main] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2018-12-23 14:54:35.701  INFO 10703 --- [main] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2018-12-23 14:54:36.739  INFO 10703 --- [main] o.h.t.s.i.SchemaCreatorImpl              : HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@7ea42c82'
+2018-12-23 14:54:36.744  INFO 10703 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-12-23 14:54:38.002  INFO 10703 --- [main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-23 14:54:38.080  WARN 10703 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-12-23 14:54:38.849  INFO 10703 --- [main] c.d.r.MockMvcWebTests                    : Started MockMvcWebTests in 7.362 seconds (JVM running for 9.165)
+2018-12-23 14:54:38.965  INFO 10703 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2018-12-23 14:54:38.965  INFO 10703 --- [main] o.s.t.w.s.TestDispatcherServlet          : Initializing Servlet ''
+2018-12-23 14:54:38.982  INFO 10703 --- [main] o.s.t.w.s.TestDispatcherServlet          : Completed initialization in 17 ms
+2018-12-23 14:54:39.106  INFO 10703 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2018-12-23 14:54:39.874  INFO 10703 --- [Thread-2] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-23 14:54:39.875  INFO 10703 --- [Thread-2] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-12-23 14:54:39.876  INFO 10703 --- [Thread-2] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2018-12-23 14:54:39.887  INFO 10703 --- [Thread-2] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2018-12-23 14:54:39.891  INFO 10703 --- [Thread-2] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
