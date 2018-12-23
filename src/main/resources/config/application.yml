@@ -3,14 +3,18 @@ spring:
     cache: false
   profiles:
     active: development
-
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
 #  datasource:
 #    url: jdbc:mysql:///:3306/readList
 #    username: root
 #    password: yesyes
 #    driver-class-name: com.mysql.jdbc.Driver
-server:
-  port: 8081 #8443
+#server:
+#  port: 8081 #8443
 #  ssl:
 #    key-store: classpath:mykeys.jks
 #    key-password: mmdxjj
