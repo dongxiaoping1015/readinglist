@@ -31,7 +31,8 @@ profiles: development
 logging:
   level:
   root: DEBUG
-
+  
+...
 ---
 
 spring:
@@ -41,3 +42,5 @@ logging:
   file: BookWorm.log
   level:
   root: WARN
+
+...
