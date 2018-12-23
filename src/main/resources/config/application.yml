@@ -1,6 +1,8 @@
 spring:
   thymeleaf:
     cache: false
+  profiles:
+    active: development
 #  datasource:
 #    url: jdbc:mysql:///:3306/readList
 #    username: root
@@ -20,3 +22,22 @@ logging:
 
 amazon:
   associateId: dong
+
+
+---
+
+spring:
+profiles: development
+logging:
+  level:
+  root: DEBUG
+
+---
+
+  spring:
+  profiles: production
+  logging:
+    path: /temp/
+    file: BookWorm.log
+    level:
+    root: WARN
