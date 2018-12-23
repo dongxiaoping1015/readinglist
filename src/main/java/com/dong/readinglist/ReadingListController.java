@@ -12,19 +12,15 @@ import java.util.List;
 
 @Controller
 @RequestMapping("/readingList")
-@ConfigurationProperties(prefix = "amazon")
 public class ReadingListController {
-    private String associateId;
-
-    public void setAssociateId(String associateId) {
-        this.associateId = associateId;
-    }
 
     private ReadingListRepositiory readingListRepositiory;
+    private AmazonProperties amazonProperties;
 
     @Autowired
-    public ReadingListController(ReadingListRepositiory readingListRepositiory) {
+    public ReadingListController(ReadingListRepositiory readingListRepositiory, AmazonProperties amazonProperties) {
         this.readingListRepositiory = readingListRepositiory;
+        this.amazonProperties = amazonProperties;
     }
 
     @RequestMapping(value = "/{reader}", method = RequestMethod.GET)
@@ -33,7 +29,7 @@ public class ReadingListController {
         if (readingList != null) {
             model.addAttribute("books", readingList);
             model.addAttribute("reader", reader);
-            model.addAttribute("amazonID", associateId);
+            model.addAttribute("amazonID", amazonProperties.getAssociateId());
         }
         return "readingList";
     }
