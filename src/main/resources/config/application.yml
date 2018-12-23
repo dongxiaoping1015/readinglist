@@ -34,10 +34,10 @@ logging:
 
 ---
 
-  spring:
-  profiles: production
-  logging:
-    path: /temp/
-    file: BookWorm.log
-    level:
-    root: WARN
+spring:
+profiles: production
+logging:
+  path: /temp/
+  file: BookWorm.log
+  level:
+  root: WARN
